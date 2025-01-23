@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/water_potability/WaterPotability/src/models/mlruns/0/251263ff70de472094bc8e62575a2f9d/artifacts
+end_time: 1737571096111
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 251263ff70de472094bc8e62575a2f9d
+run_name: resilient-mare-909
+run_uuid: 251263ff70de472094bc8e62575a2f9d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737571095814
+status: 4
+tags: []
+user_id: amolm

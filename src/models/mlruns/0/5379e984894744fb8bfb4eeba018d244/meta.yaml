@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/water_potability/WaterPotability/src/models/mlruns/0/5379e984894744fb8bfb4eeba018d244/artifacts
+end_time: 1737571389007
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5379e984894744fb8bfb4eeba018d244
+run_name: funny-doe-342
+run_uuid: 5379e984894744fb8bfb4eeba018d244
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737571377834
+status: 4
+tags: []
+user_id: amolm
