@@ -1,0 +1,2 @@
+[console_scripts]
+water-potability = src.main:main

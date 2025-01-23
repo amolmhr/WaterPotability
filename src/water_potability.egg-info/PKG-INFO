@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: water_potability
+Version: 0.1.0
+Summary: A classification model for predicting water potability.
+Home-page: https://github.com/amolmhr/water-potability
+Author: Amol Mehra
+Author-email: amolmhr@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: seaborn>=0.11.0
+Requires-Dist: matplotlib>=3.4.0
+Requires-Dist: scikit-learn>=1.0.0
