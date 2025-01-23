@@ -34,9 +34,60 @@ The project utilizes the following tools and technologies:
 ---
 
 ## **Directory Structure**
+# Project Structure
+
 The project is organized as follows:
-. ├── data/ │ ├── raw/ # Raw data │ ├── processed/ # Cleaned data │ └── interim/ # Data after feature engineering ├── notebooks/ # Jupyter notebooks for analysis and modeling ├── src/ │ ├── data/ # Scripts for data loading and preprocessing │ ├── features/ # Scripts for feature engineering │ ├── models/ # Scripts for training and evaluating models │ └── visualization/ # Scripts for creating visualizations ├── tests/ # Unit tests for the project ├── models/ # Saved machine learning models ├── reports/ # Documentation and reports ├── requirements.txt # Required Python libraries └── README.md # Project description
----
+
+```
+.
+├── data/                  # Data directory
+│   ├── raw/              # Raw data
+│   ├── processed/        # Cleaned data
+│   └── interim/          # Data after feature engineering
+├── notebooks/            # Jupyter notebooks for analysis and modeling
+├── src/                  # Source code
+│   ├── data/             # Scripts for data loading and preprocessing
+│   ├── features/         # Scripts for feature engineering
+│   ├── models/           # Scripts for training and evaluating models
+│   └── visualization/    # Scripts for creating visualizations
+├── tests/                # Unit tests for the project
+├── models/               # Saved machine learning models
+├── reports/              # Documentation and reports
+├── requirements.txt      # Required Python libraries
+└── README.md             # Project description
+```
+
+## Directory Details
+
+### `data/`
+- **`raw/`**: Contains the raw data files as obtained from the source.
+- **`processed/`**: Stores cleaned and processed data ready for analysis or modeling.
+- **`interim/`**: Holds data files after feature engineering steps.
+
+### `notebooks/`
+- Includes Jupyter notebooks used for exploratory data analysis and model development.
+
+### `src/`
+- **`data/`**: Scripts for loading, cleaning, and preprocessing the data.
+- **`features/`**: Scripts for creating and engineering features.
+- **`models/`**: Scripts for model training, evaluation, and saving the trained models.
+- **`visualization/`**: Scripts for creating visualizations and plots.
+
+### `tests/`
+- Contains unit tests to ensure the reliability and correctness of the project code.
+
+### `models/`
+- Directory for saving trained machine learning models.
+
+### `reports/`
+- Includes project documentation, progress reports, and final analysis.
+
+### `requirements.txt`
+- A file listing all the Python libraries required to run the project.
+
+### `README.md`
+- Provides an overview and description of the project.
+
 
 ## **How to Run the Project**
 1. Clone this repository:
